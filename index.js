@@ -35,15 +35,31 @@ const SEANS = {
 
 const { CourtReservation } = require("./functions");
 
-const tc = "45856276834";
-const password = "71936582";
+const bgratc = "45856276834";
+const bugrapass = "71936582";
 
-const seans = sali2.btn1;
-const kort = CORTS.KAPALI_5;
+const yusuftc = "18821832878";
+const yusufpass = "Artisboy67";
+
+const tc = bgratc;
+const password = bugrapass;
+
+// !!! RANDEVU ALACAĞIN GÜNÜ KONTROL ETMEYİ UNUTMA !!!
+
+const seans = cuma1.btn10;
+const kort = CORTS.KAPALI_6;
+
+// !!! RANDEVU ALACAĞIN SAATİ KONTROL ET !!!
+
+// DAKİKA VE SANİYE "O" OLARAK KALSIN
 
 const hourInputVar = 20;
 const minuteInputVar = 0;
 const secondInputVar = 0;
+
+// !!! GÜNÜN YANINDAKİ "btn" KISMINDA DOĞRU btn'yi SEÇTİĞİNDEN EMİN OL !!!
+
+// DAHA SONRA "npm run dev" KOMUTU İLE BOTU ÇALIŞTIRABİLİRSİN
 
 CourtReservation(
   tc,
