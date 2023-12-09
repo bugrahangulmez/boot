@@ -33,7 +33,7 @@ const SEANS = {
   pazar2,
 }
 
-const { CourtReservation, CourtReservationCoach } = require("./functions")
+const { CourtReservation } = require("./functions")
 
 const bgratc = "45856276834"
 const bugrapass = "71936582"
@@ -53,9 +53,9 @@ const kort = CORTS.TOPRAK_2
 
 // DAKİKA VE SANİYE "O" OLARAK KALSIN
 
-const hourInputVar = 22
-const minuteInputVar = 32
-const secondInputVar = 10
+const hourInputVar = 20
+const minuteInputVar = 0
+const secondInputVar = 0
 
 // NORMAL KİRALAMA İÇİN "hiring" EĞİTMEN KİRALAMA İÇİN "coach" SEÇİLECEK
 
@@ -72,17 +72,7 @@ const personCount = 2
 
 // DAHA SONRA "npm run dev" KOMUTU İLE BOTU ÇALIŞTIRABİLİRSİN
 
-// CourtReservation(
-//   tc,
-//   password,
-//   seans,
-//   kort,
-//   hourInputVar,
-//   minuteInputVar,
-//   secondInputVar
-// );
-
-CourtReservationCoach({
+CourtReservation({
   tc,
   password,
   kort,
