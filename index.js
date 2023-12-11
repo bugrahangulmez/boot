@@ -14,7 +14,7 @@ const {
   pazar1,
   pazar2,
   CORTS,
-} = require("./data");
+} = require("./data")
 
 const SEANS = {
   pazartesi1,
@@ -31,31 +31,34 @@ const SEANS = {
   cumartesi2,
   pazar1,
   pazar2,
-};
+}
 
-const { CourtReservation } = require("./functions");
+const { CourtReservation } = require("./functions")
 
-const bgratc = "45856276834";
-const bugrapass = "71936582";
+const bgratc = "45856276834"
+const bugrapass = "71936582"
 
-const yusuftc = "18821832878";
-const yusufpass = "Artisboy67";
+const yusuftc = "18821832878"
+const yusufpass = "Artisboy67"
 
-const tc = bgratc;
-const password = bugrapass;
+const beyzatc = "51421817920"
+const beyzapass = "Beyza1996"
+
+const tc = beyzatc
+const password = beyzapass
 
 // !!! RANDEVU ALACAĞIN GÜNÜ KONTROL ETMEYİ UNUTMA !!!
 
-const seans = cuma1.btn10;
-const kort = CORTS.KAPALI_6;
+const seans = persembe1.btn11
+const kort = CORTS.KAPALI_5
 
 // !!! RANDEVU ALACAĞIN SAATİ KONTROL ET !!!
 
 // DAKİKA VE SANİYE "O" OLARAK KALSIN
 
-const hourInputVar = 20;
-const minuteInputVar = 0;
-const secondInputVar = 0;
+const hourInputVar = 21
+const minuteInputVar = 0
+const secondInputVar = 0
 
 // !!! GÜNÜN YANINDAKİ "btn" KISMINDA DOĞRU btn'yi SEÇTİĞİNDEN EMİN OL !!!
 
@@ -69,7 +72,7 @@ CourtReservation(
   hourInputVar,
   minuteInputVar,
   secondInputVar
-);
+)
 
 // Fonksiyona parametre olarak verilecek değişkenlerin sırası;
 // 1 - Tc kimlik no (Kullanıcı adı) = tc
