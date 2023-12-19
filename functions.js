@@ -21,6 +21,7 @@ async function CourtReservation({
   })
 
   await page.goto("https://online.spor.istanbul/uyedashboard")
+  page.setDefaultTimeout(0)
 
   page.on("dialog", async (dialog) => {
     console.log(`Alert metni: ${dialog.message()}`)

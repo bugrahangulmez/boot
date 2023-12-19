@@ -46,14 +46,14 @@ const password = bugrapass
 
 // !!! RANDEVU ALACAĞIN GÜNÜ KONTROL ETMEYİ UNUTMA !!!
 
-const seans = sali2.btn1
-const kort = CORTS.TOPRAK_2
+const seans = cuma1.btn11
+const kort = CORTS.KAPALI_6
 
 // !!! RANDEVU ALACAĞIN SAATİ KONTROL ET !!!
 
 // DAKİKA VE SANİYE "O" OLARAK KALSIN
 
-const hourInputVar = 20
+const hourInputVar = 21
 const minuteInputVar = 0
 const secondInputVar = 0
 
@@ -66,7 +66,7 @@ const hiringTypes = {
 
 const type = hiringTypes.coach
 
-const personCount = 2
+const personCount = 1
 
 // !!! GÜNÜN YANINDAKİ "btn" KISMINDA DOĞRU btn'yi SEÇTİĞİNDEN EMİN OL !!!
 
